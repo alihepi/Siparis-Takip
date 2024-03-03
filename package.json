@@ -1,0 +1,14 @@
+{
+  "name": "samil_cini",
+  "version": "2.0",
+  "private": true,
+  "scripts": {
+    "start": "npm install && concurrently \"cd ./backend && npm install && npm start\" \"cd ./frontend && npm install && npm run dev\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "react-router": "^6.22.2",
+    "react-to-pdf": "^1.0.1",
+    "react-to-print": "^2.15.1"
+  }
+}

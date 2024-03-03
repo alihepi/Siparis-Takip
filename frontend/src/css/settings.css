@@ -1,0 +1,287 @@
+* {
+    --pr-bg: rgba(233, 233, 233, 0.856);
+    --pr-inp-br: rgb(173, 173, 173);
+
+    --pr-inf-bg: rgba(219, 219, 219, 0.767);
+}
+
+.nav-set {
+    padding: 0.5rem 0;
+    background: rgb(238, 238, 238);
+    border-bottom: 1px solid gray;
+}
+
+.navbar-home-btn{
+    border-bottom: 1px solid gray;
+    padding: 0.25rem 0.75rem;
+    background: rgb(216, 216, 216);
+}
+
+/*footer*/
+.alimutlu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: bottom;
+
+    font-size: 14px;
+    opacity: 50%;
+    padding: 0.75rem 0;
+}
+
+
+.sale-add-ovrflw {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* Opsiyonel: Metin çok uzunsa üç nokta (...) ekler */
+}
+
+
+.customer-list {
+    padding: 0.35rem;
+}
+
+.customer-list-name {
+    width: 25%;
+    background: white;
+}
+
+.customer-list-phone {
+    width: 10%;
+    text-align: center;
+    background: white;
+}
+
+.customer-list-other {
+    font-size: 0.95rem;
+    width: 65%;
+    background: white;
+    align-items: center;
+}
+
+.inf-border {
+    border-bottom: 1px solid black;
+}
+
+.customer-inf {
+    width: 7rem;
+}
+
+.customer-int-intput {
+    width: 13rem;
+}
+
+.sale-inf {
+    border: 1px solid black;
+}
+
+.product-input {
+    padding: 0.35rem 0.35rem;
+    border-radius: 0.25rem;
+}
+
+.product-input input {
+    padding: 0.25rem 0.5rem;
+    width: 11%;
+    border: 0.5px solid var(--pr-inp-br);
+    border-radius: 0.25rem;
+    background: white;
+}
+
+.product-input input.piece {
+    width: 10%;
+}
+
+.product-border {
+    border: 0.5px solid var(--pr-inp-br);
+    border-radius: 0.25rem;
+    padding: 0 0.5rem;
+}
+
+.product-border1 {
+    border: 0.5px solid var(--pr-inp-br);
+    border-radius: 0.25rem;
+    padding: 0 0.5rem 0 0;
+}
+
+.product-name {
+    width: 70%;
+    background: white;
+}
+
+.product-sale {
+    width: 15%;
+    background: white;
+}
+
+.kontrol {
+    background: burlywood;
+    border: 0.5px solid black;
+}
+
+.kontrol1 {
+    background: darkcyan;
+    border: 0.5px solid black;
+}
+
+.pr-border {
+    border: 0.5px solid rgb(189, 189, 189);
+    border-radius: 0.25rem;
+    background-color: var(--pr-bg);
+}
+
+/*
+.product-border:hover{
+    border: 1px solid black;
+}
+*/
+
+.product-inf {
+    padding: 0.25rem 0.5rem;
+    border-bottom: 0.5px solid rgb(100, 100, 100);
+    font-size: 0.85rem;
+    justify-content: center;
+}
+
+.product-inf1 {
+    width: 10%;
+}
+
+.product-inf2 {
+    width: 60%;
+    justify-content: start;
+}
+
+.product-inf3 {
+    width: 10%;
+}
+
+.product-inf4 {
+    width: 13%;
+}
+
+.product-inf5 {
+    width: 16.25%;
+}
+
+.product-input i {
+    color: crimson;
+}
+
+.product-inf1 {
+    width: 16.65%;
+}
+
+.product-inf2 {
+    width: 79%;
+}
+
+.product-inf3 {
+    width: 17%;
+}
+
+.up-new .product-inf3 {
+    width: 18.5%;
+}
+
+
+.product-inf-print1 {
+    width: 10.35%;
+}
+
+.product-inf-print2 {
+    width: 65%;
+    justify-content: start;
+}
+
+.product-inf-print3 {
+    width: 9.5%;
+}
+
+.product-inf-print4 {
+    width: 14%;
+}
+
+.product-inf-print5 {
+    width: 15.45%;
+}
+
+.old .product-inf-print5 {
+    width: 15%;
+}
+
+.old .product-inf-print2 {
+    width: 68%;
+    justify-content: start;
+}
+
+
+
+
+.product-total-kdv {
+    width: 71%;
+}
+
+.product-total-kdv-sale {
+    padding: 0.40rem 0;
+    width: 27.5%;
+}
+
+.ind-input {
+    border: none;
+    text-align: end;
+    width: 100%;
+    padding-right: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+
+
+.product-total-sale {
+    padding: 0.4rem 0.4rem;
+}
+
+.product-total-sale1 {
+    width: 42%;
+    font-size: 0.85rem;
+}
+
+.product-total-sale2 {
+    width: 55%;
+}
+
+.product-total-sale3 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sale-add {
+    height: 3rem;
+}
+
+.add-prod {
+    background: floralwhite;
+    padding: 0.90rem;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+}
+
+.product-border-1 {
+    border: 0.5px solid var(--pr-inp-br);
+    border-radius: 0.25rem;
+}
+
+.product-input div input {
+    width: 100%;
+    border: none;
+}
